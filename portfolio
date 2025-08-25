@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paras Pant | Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .about, .skills, .projects, .contact {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .skills li {
+      background: #f39c12;
+      color: white;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+    .projects .project {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Paras Pant</h1>
+    <p>Aspiring Computer Science Engineer | AI & Data Science</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Paras Pant, a Computer Science student passionate about AI, Data Science, and Software Development. I enjoy building projects, solving problems, and continuously learning new technologies.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>DBMS (Oracle 11g)</li>
+      <li>Data Structures & Algorithms</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Smart Internet Traffic Flow Manager</h3>
+      <p>A system to optimize and manage university network traffic efficiently.</p>
+    </div>
+    <div class="project">
+      <h3>Provenance-Aware Filesystem Overlay</h3>
+      <p>A filesystem that tracks file lineage and supports forensic rollback.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This personal portfolio created using HTML and CSS.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:paraspant@example.com">paraspant@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/ParasPant" target="_blank">github.com/ParasPant</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ParasPant" target="_blank">linkedin.com/in/ParasPant</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Paras Pant | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
